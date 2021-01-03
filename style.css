@@ -34,11 +34,11 @@ body {
 
 .container {
   width: 600px;
-  height: 600px;
+  height: 800px;
   background-color: #fff;
   border-radius: 10px;
 
-  padding: 30px;
+  padding: 45px 25px 25px 25px;
 }
 
 .frame {
@@ -49,6 +49,7 @@ body {
 
 .header {
   display: flex;
+  align-items: flex-start;
 
 }
 
@@ -65,9 +66,44 @@ body {
   font-size: 1.8rem;
   font-family: "Bungee", sans-serif;
 
-  padding: 24px;
+  padding: 16px;
 
   background: unset;
   border: unset;
   outline: unset;
+
+  cursor: pointer;
+}
+
+.add {
+  padding: 16px;
+}
+
+.add-form {
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.add-input {
+  flex: 1;
+  padding: 0 64px;
+
+  border: unset;
+  outline: unset;
+
+  font-family: "Homemade Apple", sans-serif;
+  font-size: 20px;
+  text-transform: lowercase;
+
+  border-bottom: 1px solid #ff0000
+}
+
+.add-btn {
+  border: unset;
+  background-color: unset;
+  font-family: "Bungee", sans-serif;
+  font-size: 1.8rem;
+
+  cursor: pointer;
 }
